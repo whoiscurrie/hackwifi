@@ -30,7 +30,7 @@ This repository contains a set of Python scripts designed to automate Wi-Fi pene
 2. Ensure the scripts are executable:
    ```bash
    cd hackwifi
-   chmod +x scan.py deauth.py crack.py
+   chmod +x 1scan.py 2deauth.py 3crack.py
    ```
 
 ---
