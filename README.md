@@ -1,4 +1,4 @@
-# Wi-Fi Penetration Testing Toolkit
+# hackwifi (A Wi-Fi Penetration Testing Toolkit)
 
 This repository contains a set of Python scripts designed to automate Wi-Fi penetration testing tasks. The toolkit is modular and includes scripts for scanning networks, capturing packets, performing deauthentication attacks, and cracking Wi-Fi passwords.
 
