@@ -26,31 +26,45 @@ This repository contains a set of Python scripts designed to automate Wi-Fi pene
 1. Clone the repository:
    ```bash
    git clone https://github.com/hackwayne/hackwifi.git
+   ```
 2. Ensure the scripts are executable:
    ```bash
    cd hackwifi
    chmod +x scan.py deauth.py crack.py
+   ```
+
+---
+
 ## **Usage**
-1. Scan and Capture Packets
-   - Run the scan.py script to scan for nearby Wi-Fi networks and capture handshake packets:
-   ```bash
-   sudo python3 scan.py
 
-- Follow the prompts to enter the filename, channel, and BSSID of the target network.
+### 1. Scan and Capture Packets
+Run the `1scan.py` script to scan for nearby Wi-Fi networks and capture handshake packets:
+```bash
+sudo python3 1scan.py
+```
+Follow the prompts to enter the filename, channel, and BSSID of the target network.
 
-2. Perform deauth
-- Follow the prompts to enter the filename, channel, and BSSID of the target network.
-   ```bash
-   sudo python3 deauth.py
-- Enter the BSSID of the target network when prompted.
+### 2. Perform Deauthentication Attack
+Run the `2deauth.py` script to disconnect devices from the target network:
+```bash
+sudo python3 2deauth.py
+```
+Enter the BSSID of the target network when prompted.
 
-3. Crack the Password
-- Run the crack.py script to crack the password using the captured handshake packets:
-  ```bash
-  sudo python3 crack.py
-- Enter the filename of the capture (without the .cap extension) and the path to the wordlist.
+### 3. Crack the Password
+Run the `3crack.py` script to crack the password using the captured handshake packets:
+```bash
+sudo python3 3crack.py
+```
+Enter the filename of the capture (without the `.cap` extension) and the path to the wordlist.
+
+---
 
 ## **Ethical Considerations**
-Authorization: Always obtain explicit permission before testing any network.
-Legal Compliance: Ensure your actions comply with local laws and regulations.
-Responsible Disclosure: If vulnerabilities are found, report them to the appropriate parties responsibly.
+- **Authorization**: Always obtain explicit permission before testing any network.
+- **Legal Compliance**: Ensure your actions comply with local laws and regulations.
+- **Responsible Disclosure**: If vulnerabilities are found, report them to the appropriate parties responsibly.
+
+---
+
+Happy Testing!
