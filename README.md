@@ -25,7 +25,7 @@ This repository contains a set of Python scripts designed to automate Wi-Fi pene
 ## **Installation**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hackwayne/hackwifi.git
+   git clone https://github.com/whoiscurrie/hackwifi.git
    ```
 2. Ensure the scripts are executable:
    ```bash
